@@ -10,7 +10,7 @@ def test_sub():
 	assert sub(1, 1) == 0
 	assert sub(10, 1) == 9
 	assert sub(1, -1) == 2
-	assert sub(100, -10) == 90
+	assert sub(100, -10) == 110
 #Test multi()
 def test_multi():
 	assert multi(1, 1) == 1
