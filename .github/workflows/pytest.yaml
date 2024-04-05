@@ -3,8 +3,10 @@ name: Run tests
 on:
   push:
     branches: [ main ]
+    branches: [ make_test_fail ]
   pull_request:
     branches: [ main ]
+    branches: [ make_test_fail ]
 
 jobs:
   run-test:
